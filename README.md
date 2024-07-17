@@ -8,6 +8,15 @@ A template for getting started with [AstroNvim](https://github.com/AstroNvim/Ast
 
 #### Make a backup of your current nvim and shared folder
 
+
+```shell
+rm -rf ~/.config/nvim.bak
+rm -rf ~/.local/share/nvim.bak
+rm -rf ~/.local/state/nvim.bak
+rm -rf ~/.cache/nvim.bak
+```
+
+
 ```shell
 mv ~/.config/nvim ~/.config/nvim.bak
 mv ~/.local/share/nvim ~/.local/share/nvim.bak
